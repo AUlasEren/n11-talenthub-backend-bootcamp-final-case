@@ -1,0 +1,158 @@
+2024-03-11 18:49:15.558 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server jetty-10.0.19; built: 2023-12-15T20:38:32.477Z; git: 8492d1c78f122bb30cce20aecfa07e7283facd47; jvm 17.0.10+7
+2024-03-11 18:49:15.744 WARN  (main) [c: s: r: x: t:] o.e.j.u.DeprecationWarning Using @Deprecated Class org.eclipse.jetty.servlet.listener.ELContextCleaner
+2024-03-11 18:49:15.762 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2024-03-11 18:49:15.767 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.5.0
+2024-03-11 18:49:15.767 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in standalone mode on port 8983
+2024-03-11 18:49:15.768 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /opt/solr-9.5.0
+2024-03-11 18:49:15.768 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2024-03-11T18:49:15.768098565Z
+2024-03-11 18:49:15.769 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr started with "-XX:+CrashOnOutOfMemoryError" that will crash on any OutOfMemoryError exception. The cause of the OOME will be logged in the crash file at the following path: /var/solr/logs/jvm_crash_12.log
+2024-03-11 18:49:15.786 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr Home: /var/solr/data (source: system property: solr.solr.home)
+2024-03-11 18:49:15.800 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig solr.xml not found in SOLR_HOME, using built-in default
+2024-03-11 18:49:15.800 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig Loading solr.xml from /opt/solr-9.5.0/server/solr/solr.xml
+2024-03-11 18:49:15.826 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/opt/solr-9.5.0/lib]
+2024-03-11 18:49:16.223 INFO  (main) [c: s: r: x: t:] o.a.s.u.t.SimplePropagator Always-on trace id generation enabled.
+2024-03-11 18:49:16.388 WARN  (main) [c: s: r: x: t:] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2024-03-11 18:49:16.389 WARN  (main) [c: s: r: x: t:] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2024-03-11 18:49:16.593 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Found 3 core definitions underneath /var/solr/data
+2024-03-11 18:49:16.594 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Cores are: [geotaste, geotaste-restaurants, n11_products]
+2024-03-11 18:49:16.641 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.9.0
+2024-03-11 18:49:16.641 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.9.0
+2024-03-11 18:49:16.641 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.9.0
+2024-03-11 18:49:16.808 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-03-11 18:49:16.809 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-03-11 18:49:16.809 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-03-11 18:49:16.847 WARN  (main) [c: s: r: x: t:] o.g.j.m.i.MessagingBinders A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+2024-03-11 18:49:17.113 INFO  (main) [c: s: r: x: t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 18:49:17.218 INFO  (main) [c: s: r: x: t:] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@655a5d9c{solr-jetty-context.xml,/solr,file:///opt/solr-9.5.0/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-9.5.0/server/solr-webapp/webapp}
+2024-03-11 18:49:17.224 INFO  (main) [c: s: r: x: t:] o.e.j.s.RequestLogWriter Opened /var/solr/logs/2024_03_11.request.log
+2024-03-11 18:49:17.229 INFO  (main) [c: s: r: x: t:] o.e.j.s.AbstractConnector Started ServerConnector@2b95e48b{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-03-11 18:49:17.230 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server Started Server@376a312c{STARTING}[10.0.19,sto=0] @2397ms
+2024-03-11 18:49:17.527 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-03-11 18:49:17.527 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-03-11 18:49:17.527 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-03-11 18:49:17.527 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.c.CoreContainer Creating SolrCore 'geotaste' using configuration from instancedir /var/solr/data/geotaste, trusted=true
+2024-03-11 18:49:17.527 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.CoreContainer Creating SolrCore 'geotaste-restaurants' using configuration from instancedir /var/solr/data/geotaste-restaurants, trusted=true
+2024-03-11 18:49:17.527 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.c.CoreContainer Creating SolrCore 'n11_products' using configuration from instancedir /var/solr/data/n11_products, trusted=true
+2024-03-11 18:49:17.545 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/geotaste], dataDir=[/var/solr/data/geotaste/data/]
+2024-03-11 18:49:17.545 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/geotaste-restaurants], dataDir=[/var/solr/data/geotaste-restaurants/data/]
+2024-03-11 18:49:17.545 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/n11_products], dataDir=[/var/solr/data/n11_products/data/]
+2024-03-11 18:49:17.890 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 18:49:17.892 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 18:49:17.892 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 18:49:17.902 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-03-11 18:49:17.902 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-03-11 18:49:17.902 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-03-11 18:49:17.902 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-03-11 18:49:17.902 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-03-11 18:49:17.902 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-03-11 18:49:17.912 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-03-11 18:49:17.912 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-03-11 18:49:17.913 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-03-11 18:49:17.912 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-03-11 18:49:17.913 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-03-11 18:49:17.913 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-03-11 18:49:17.979 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/geotaste/conf
+2024-03-11 18:49:17.979 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/geotaste-restaurants/conf
+2024-03-11 18:49:17.979 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/n11_products/conf
+2024-03-11 18:49:17.987 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.s.DirectSolrSpellChecker init: {name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, accuracy=0.5, maxQueryFrequency=0.01}
+2024-03-11 18:49:17.987 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.s.DirectSolrSpellChecker init: {name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, accuracy=0.5, maxQueryFrequency=0.01}
+2024-03-11 18:49:17.987 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.s.DirectSolrSpellChecker init: {name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, accuracy=0.5, maxQueryFrequency=0.01}
+2024-03-11 18:49:17.991 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-03-11 18:49:17.991 INFO  (coreLoadExecutor-11-thread-3) [c: s: r: x:n11_products t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-03-11 18:49:17.991 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-03-11 18:49:17.992 INFO  (searcherExecutor-15-thread-1-processing-geotaste) [c: s: r: x:geotaste t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-03-11 18:49:17.992 INFO  (searcherExecutor-15-thread-1-processing-geotaste) [c: s: r: x:geotaste t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-03-11 18:49:17.992 INFO  (searcherExecutor-17-thread-1-processing-n11_products) [c: s: r: x:n11_products t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-03-11 18:49:17.992 INFO  (searcherExecutor-17-thread-1-processing-n11_products) [c: s: r: x:n11_products t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-03-11 18:49:17.992 INFO  (searcherExecutor-16-thread-1-processing-geotaste-restaurants) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-03-11 18:49:17.992 INFO  (searcherExecutor-16-thread-1-processing-geotaste-restaurants) [c: s: r: x:geotaste-restaurants t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-03-11 18:49:17.996 INFO  (searcherExecutor-15-thread-1-processing-geotaste) [c: s: r: x:geotaste t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-03-11 18:49:17.996 INFO  (searcherExecutor-16-thread-1-processing-geotaste-restaurants) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-03-11 18:49:17.996 INFO  (searcherExecutor-17-thread-1-processing-n11_products) [c: s: r: x:n11_products t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-03-11 18:49:18.961 INFO  (qtp693267461-77-null-3) [c: s: r: x: t:null-3] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182958893} status=0 QTime=3
+2024-03-11 18:49:18.962 INFO  (qtp693267461-75-null-1) [c: s: r: x:geotaste t:null-1] o.a.s.c.S.Request webapp=/solr path=/config/params params={wt=json&_=1710182958912} status=0 QTime=4
+2024-03-11 18:49:18.968 INFO  (qtp693267461-76-null-2) [c: s: r: x: t:null-2] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182958893} status=0 QTime=10
+2024-03-11 18:49:21.170 INFO  (qtp693267461-75-null-5) [c: s: r: x: t:null-5] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182961134} status=0 QTime=0
+2024-03-11 18:49:21.174 INFO  (qtp693267461-35-null-6) [c: s: r: x:geotaste t:null-6] o.a.s.c.S.Request webapp=/solr path=/config/params params={wt=json&_=1710182961160} status=0 QTime=0
+2024-03-11 18:49:21.178 INFO  (qtp693267461-34-null-7) [c: s: r: x: t:null-7] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961134} status=0 QTime=4
+2024-03-11 18:49:21.219 INFO  (qtp693267461-32-null-8) [c: s: r: x: t:null-8] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182961178} status=0 QTime=0
+2024-03-11 18:49:21.221 INFO  (qtp693267461-76-null-10) [c: s: r: x:geotaste t:null-10] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710182961213} status=0 QTime=1
+2024-03-11 18:49:21.223 INFO  (qtp693267461-30-null-9) [c: s: r: x: t:null-9] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961179} status=0 QTime=4
+2024-03-11 18:49:21.226 INFO  (qtp693267461-36-null-11) [c: s: r: x:geotaste t:null-11] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710182961179&ts=1710182961179} status=503 QTime=0
+2024-03-11 18:49:21.228 INFO  (qtp693267461-35-null-12) [c: s: r: x:geotaste t:null-12] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710182961213} status=0 QTime=2
+2024-03-11 18:49:21.231 INFO  (qtp693267461-38-null-13) [c: s: r: x:geotaste t:null-13] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710182961213} status=0 QTime=5
+2024-03-11 18:49:23.203 INFO  (qtp693267461-76-null-15) [c: s: r: x: t:null-15] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182961134} status=0 QTime=0
+2024-03-11 18:49:23.205 INFO  (qtp693267461-37-null-14) [c: s: r: x: t:null-14] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961134} status=0 QTime=2
+2024-03-11 18:49:23.209 INFO  (qtp693267461-30-null-16) [c: s: r: x: t:null-16] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961134} status=0 QTime=2
+2024-03-11 18:49:26.268 INFO  (qtp693267461-76-null-17) [c: s: r: x: t:null-17] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182961134} status=0 QTime=0
+2024-03-11 18:49:26.269 INFO  (qtp693267461-35-null-19) [c: s: r: x:geotaste t:null-19] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710182966264} status=0 QTime=0
+2024-03-11 18:49:26.270 INFO  (qtp693267461-34-null-18) [c: s: r: x: t:null-18] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961134} status=0 QTime=2
+2024-03-11 18:49:26.271 INFO  (qtp693267461-75-null-21) [c: s: r: x:geotaste t:null-21] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710182961134&ts=1710182961134} status=503 QTime=0
+2024-03-11 18:49:26.274 INFO  (qtp693267461-78-null-22) [c: s: r: x:geotaste t:null-22] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710182966264} status=0 QTime=2
+2024-03-11 18:49:26.275 INFO  (qtp693267461-33-null-20) [c: s: r: x:geotaste t:null-20] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710182966264} status=0 QTime=3
+2024-03-11 18:51:44.456 INFO  (qtp693267461-55-null-24) [c: s: r: x:geotaste t:null-24] o.a.s.c.S.Request webapp=/solr path=/config/params params={wt=json&_=1710182961160} status=0 QTime=0
+2024-03-11 18:51:44.456 INFO  (qtp693267461-37-null-25) [c: s: r: x: t:null-25] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182961134} status=0 QTime=0
+2024-03-11 18:51:44.458 INFO  (qtp693267461-53-null-23) [c: s: r: x: t:null-23] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961134} status=0 QTime=2
+2024-03-11 18:51:47.066 INFO  (qtp693267461-32-null-26) [c: s: r: x: t:null-26] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710182961134} status=0 QTime=0
+2024-03-11 18:51:47.066 INFO  (qtp693267461-75-null-28) [c: s: r: x:geotaste t:null-28] o.a.s.c.S.Request webapp=/solr path=/config/params params={wt=json&_=1710182961160} status=0 QTime=0
+2024-03-11 18:51:47.068 INFO  (qtp693267461-76-null-27) [c: s: r: x: t:null-27] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710182961134} status=0 QTime=2
+2024-03-11 18:51:47.103 INFO  (qtp693267461-56-null-29) [c: s: r: x:geotaste t:null-29] o.a.s.c.S.Request webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&useParams=&_=1710182961160} hits=0 status=0 QTime=12
+2024-03-11 18:51:55.357 INFO  (qtp693267461-76-null-30) [c: s: r: x:geotaste t:null-30] o.a.s.c.S.Request webapp=/solr path=/select params={q=*:*&indent=true&q.op=OR&useParams=} hits=0 status=0 QTime=1
+2024-03-11 18:53:15.228 INFO  (qtp693267461-32-null-34) [c: s: r: x: t:null-34] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183195209} status=0 QTime=0
+2024-03-11 18:53:15.230 INFO  (qtp693267461-30-null-33) [c: s: r: x: t:null-33] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183195209} status=0 QTime=2
+2024-03-11 18:53:15.240 INFO  (qtp693267461-54-null-35) [c: s: r: x:geotaste-restaurants t:null-35] o.a.s.c.S.Request webapp=/solr path=/admin/file params={wt=json&_=1710183195225} status=0 QTime=12
+2024-03-11 18:53:15.337 INFO  (qtp693267461-57-null-36) [c: s: r: x:geotaste-restaurants t:null-36] o.a.s.c.S.Request webapp=/solr path=/admin/file params={file=lang&wt=json&_=1710183195225} status=0 QTime=92
+2024-03-11 18:53:16.960 INFO  (qtp693267461-30-null-38) [c: s: r: x: t:null-38] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183195209} status=0 QTime=0
+2024-03-11 18:53:16.961 INFO  (qtp693267461-76-null-39) [c: s: r: x:geotaste t:null-39] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710183196956} status=0 QTime=0
+2024-03-11 18:53:16.962 INFO  (qtp693267461-56-null-37) [c: s: r: x: t:null-37] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183195209} status=0 QTime=2
+2024-03-11 18:53:16.964 INFO  (qtp693267461-34-null-40) [c: s: r: x:geotaste t:null-40] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710183196956} status=0 QTime=3
+2024-03-11 18:53:16.966 INFO  (qtp693267461-73-null-41) [c: s: r: x:geotaste t:null-41] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710183195209&ts=1710183195209} status=503 QTime=0
+2024-03-11 18:53:16.968 INFO  (qtp693267461-29-null-42) [c: s: r: x:geotaste t:null-42] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710183196956} status=0 QTime=2
+2024-03-11 18:54:14.305 INFO  (qtp693267461-56-null-44) [c: s: r: x: t:null-44] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183254280} status=0 QTime=0
+2024-03-11 18:54:14.308 INFO  (qtp693267461-34-null-45) [c: s: r: x: t:null-45] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183254280} status=0 QTime=2
+2024-03-11 18:54:14.313 INFO  (qtp693267461-73-null-46) [c: s: r: x: t:null-46] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183254280} status=0 QTime=2
+2024-03-11 18:55:49.512 INFO  (qtp693267461-76-null-49) [c: s: r: x: t:null-49] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183254280} status=0 QTime=0
+2024-03-11 18:55:49.512 INFO  (qtp693267461-34-null-48) [c: s: r: x:geotaste t:null-48] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710183349507} status=0 QTime=1
+2024-03-11 18:55:49.518 INFO  (qtp693267461-72-null-51) [c: s: r: x:geotaste t:null-51] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710183254280&ts=1710183254280} status=503 QTime=0
+2024-03-11 18:55:49.529 INFO  (qtp693267461-31-null-52) [c: s: r: x:geotaste t:null-52] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710183349507} status=0 QTime=11
+2024-03-11 18:55:49.529 INFO  (qtp693267461-38-null-53) [c: s: r: x: t:null-53] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183254280} status=0 QTime=11
+2024-03-11 18:55:49.529 INFO  (qtp693267461-58-null-50) [c: s: r: x:geotaste t:null-50] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710183349507} status=0 QTime=11
+2024-03-11 18:57:23.092 INFO  (qtp693267461-34-null-56) [c: s: r: x: t:null-56] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183443068} status=0 QTime=0
+2024-03-11 18:57:23.094 INFO  (qtp693267461-54-null-55) [c: s: r: x: t:null-55] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183443068} status=0 QTime=2
+2024-03-11 18:57:23.099 INFO  (qtp693267461-31-null-57) [c: s: r: x: t:null-57] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183443068} status=0 QTime=2
+2024-03-11 18:57:30.458 INFO  (qtp693267461-31-null-59) [c: s: r: x: t:null-59] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183450445} status=0 QTime=0
+2024-03-11 18:57:30.460 INFO  (qtp693267461-73-null-60) [c: s: r: x: t:null-60] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183450445} status=0 QTime=2
+2024-03-11 18:57:30.465 INFO  (qtp693267461-34-null-61) [c: s: r: x: t:null-61] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183450445} status=0 QTime=2
+2024-03-11 19:02:07.996 INFO  (qtp693267461-33-null-66) [c: s: r: x: t:null-66] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183727968} status=0 QTime=0
+2024-03-11 19:02:08.003 INFO  (qtp693267461-77-null-67) [c: s: r: x: t:null-67] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183727968} status=0 QTime=2
+2024-03-11 19:02:08.007 INFO  (qtp693267461-33-null-68) [c: s: r: x: t:null-68] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183727968} status=0 QTime=1
+2024-03-11 19:02:13.331 INFO  (qtp693267461-77-null-70) [c: s: r: x: t:null-70] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183727968} status=0 QTime=0
+2024-03-11 19:02:13.333 INFO  (qtp693267461-78-null-69) [c: s: r: x: t:null-69] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183727968} status=0 QTime=1
+2024-03-11 19:02:13.336 INFO  (qtp693267461-72-null-71) [c: s: r: x: t:null-71] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183727968} status=0 QTime=1
+2024-03-11 19:02:15.923 INFO  (qtp693267461-78-null-73) [c: s: r: x: t:null-73] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183727968} status=0 QTime=0
+2024-03-11 19:02:15.925 INFO  (qtp693267461-33-null-72) [c: s: r: x: t:null-72] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183727968} status=0 QTime=2
+2024-03-11 19:02:15.929 INFO  (qtp693267461-57-null-74) [c: s: r: x:geotaste t:null-74] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710183727968&ts=1710183727968} status=503 QTime=0
+2024-03-11 19:02:15.930 INFO  (qtp693267461-79-null-76) [c: s: r: x:geotaste t:null-76] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710183735919} status=0 QTime=1
+2024-03-11 19:02:15.931 INFO  (qtp693267461-71-null-77) [c: s: r: x:geotaste t:null-77] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710183735919} status=0 QTime=2
+2024-03-11 19:02:15.932 INFO  (qtp693267461-75-null-75) [c: s: r: x:geotaste t:null-75] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710183735919} status=0 QTime=3
+2024-03-11 19:02:42.924 INFO  (qtp693267461-54-null-81) [c: s: r: x: t:null-81] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183762897} status=0 QTime=0
+2024-03-11 19:02:42.926 INFO  (qtp693267461-33-null-80) [c: s: r: x: t:null-80] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183762897} status=0 QTime=2
+2024-03-11 19:02:42.929 INFO  (qtp693267461-71-null-82) [c: s: r: x: t:null-82] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183762897} status=0 QTime=1
+2024-03-11 19:03:45.193 INFO  (qtp693267461-33-null-86) [c: s: r: x: t:null-86] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183825179} status=0 QTime=0
+2024-03-11 19:03:45.194 INFO  (qtp693267461-75-null-87) [c: s: r: x: t:null-87] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183825179} status=0 QTime=1
+2024-03-11 19:03:45.200 INFO  (qtp693267461-54-null-88) [c: s: r: x: t:null-88] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183825179} status=0 QTime=2
+2024-03-11 19:03:57.798 INFO  (qtp693267461-75-null-91) [c: s: r: x: t:null-91] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183837773} status=0 QTime=0
+2024-03-11 19:03:57.800 INFO  (qtp693267461-35-null-92) [c: s: r: x: t:null-92] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183837773} status=0 QTime=3
+2024-03-11 19:03:57.805 INFO  (qtp693267461-33-null-93) [c: s: r: x: t:null-93] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183837773} status=0 QTime=2
+2024-03-11 19:03:59.036 INFO  (qtp693267461-35-null-96) [c: s: r: x: t:null-96] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183839009} status=0 QTime=0
+2024-03-11 19:03:59.038 INFO  (qtp693267461-53-null-95) [c: s: r: x: t:null-95] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839009} status=0 QTime=1
+2024-03-11 19:03:59.042 INFO  (qtp693267461-75-null-97) [c: s: r: x: t:null-97] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839009} status=0 QTime=1
+2024-03-11 19:03:59.234 INFO  (qtp693267461-53-null-99) [c: s: r: x: t:null-99] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183839210} status=0 QTime=0
+2024-03-11 19:03:59.236 INFO  (qtp693267461-33-null-100) [c: s: r: x: t:null-100] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839210} status=0 QTime=1
+2024-03-11 19:03:59.239 INFO  (qtp693267461-35-null-101) [c: s: r: x: t:null-101] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839210} status=0 QTime=1
+2024-03-11 19:03:59.385 INFO  (qtp693267461-33-null-103) [c: s: r: x: t:null-103] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183839361} status=0 QTime=0
+2024-03-11 19:03:59.387 INFO  (qtp693267461-75-null-104) [c: s: r: x: t:null-104] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839362} status=0 QTime=2
+2024-03-11 19:03:59.396 INFO  (qtp693267461-35-null-105) [c: s: r: x: t:null-105] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839362} status=0 QTime=1
+2024-03-11 19:03:59.528 INFO  (qtp693267461-75-null-108) [c: s: r: x: t:null-108] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710183839507} status=0 QTime=0
+2024-03-11 19:03:59.530 INFO  (qtp693267461-53-null-107) [c: s: r: x: t:null-107] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839507} status=0 QTime=2
+2024-03-11 19:03:59.534 INFO  (qtp693267461-35-null-109) [c: s: r: x: t:null-109] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710183839507} status=0 QTime=1

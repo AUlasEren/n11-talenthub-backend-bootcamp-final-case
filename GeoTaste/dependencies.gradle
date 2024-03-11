@@ -1,0 +1,27 @@
+ext{
+    versions=[
+        springBoot                  : "2.7.9",
+        springKafka                 : "2.8.0",
+        postgresql                  : "42.5.4",
+        lombok                      : "1.18.26",
+        openApi                     : "1.6.14",
+        springCloud                 : "3.1.5",
+        mapstruct                   : "1.5.3.Final",
+        springDataSolr              : "4.3.14"
+
+    ]
+    libs=[
+            springBootWeb           : "org.springframework.boot:spring-boot-starter-web:$versions.springBoot",
+            springKafka             : "org.springframework.kafka:spring-kafka:$versions.springKafka",
+            springKafkaTest         : "org.springframework.kafka:spring-kafka-test:$versions.springKafka",
+            springBootDataJpa       : "org.springframework.boot:spring-boot-starter-data-jpa:$versions.springBoot",
+            springBootValidation    : "org.springframework.boot:spring-boot-starter-validation:$versions.springBoot",
+            postgresql              : "org.postgresql:postgresql:$versions.postgresql",
+            lombok                  : "org.projectlombok:lombok:$versions.lombok",
+            openApi                 : "org.springdoc:springdoc-openapi-ui:$versions.openApi",
+            mapstruct               : "org.mapstruct:mapstruct:$versions.mapstruct",
+            mapstructProcessor      : "org.mapstruct:mapstruct-processor:$versions.mapstruct",
+            springOpenFeign         : "org.springframework.cloud:spring-cloud-starter-openfeign:$versions.springCloud",
+            springDataSolr          : "org.springframework.data:spring-data-solr:$versions.springDataSolr"
+    ]
+}

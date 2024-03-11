@@ -1,0 +1,80 @@
+2024-03-11 12:56:56.204 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server jetty-10.0.19; built: 2023-12-15T20:38:32.477Z; git: 8492d1c78f122bb30cce20aecfa07e7283facd47; jvm 17.0.10+7
+2024-03-11 12:56:56.325 WARN  (main) [c: s: r: x: t:] o.e.j.u.DeprecationWarning Using @Deprecated Class org.eclipse.jetty.servlet.listener.ELContextCleaner
+2024-03-11 12:56:56.342 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2024-03-11 12:56:56.346 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.5.0
+2024-03-11 12:56:56.346 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in standalone mode on port 8983
+2024-03-11 12:56:56.346 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /opt/solr-9.5.0
+2024-03-11 12:56:56.346 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2024-03-11T12:56:56.346838069Z
+2024-03-11 12:56:56.348 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr started with "-XX:+CrashOnOutOfMemoryError" that will crash on any OutOfMemoryError exception. The cause of the OOME will be logged in the crash file at the following path: /var/solr/logs/jvm_crash_14.log
+2024-03-11 12:56:56.361 INFO  (main) [c: s: r: x: t:] o.a.s.s.CoreContainerProvider Solr Home: /var/solr/data (source: system property: solr.solr.home)
+2024-03-11 12:56:56.368 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig solr.xml not found in SOLR_HOME, using built-in default
+2024-03-11 12:56:56.368 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrXmlConfig Loading solr.xml from /opt/solr-9.5.0/server/solr/solr.xml
+2024-03-11 12:56:56.389 INFO  (main) [c: s: r: x: t:] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/opt/solr-9.5.0/lib]
+2024-03-11 12:56:56.726 INFO  (main) [c: s: r: x: t:] o.a.s.u.t.SimplePropagator Always-on trace id generation enabled.
+2024-03-11 12:56:56.855 WARN  (main) [c: s: r: x: t:] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2024-03-11 12:56:56.856 WARN  (main) [c: s: r: x: t:] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2024-03-11 12:56:57.020 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath /var/solr/data
+2024-03-11 12:56:57.020 INFO  (main) [c: s: r: x: t:] o.a.s.c.CorePropertiesLocator Cores are: [geotaste-restaurants, n11_products]
+2024-03-11 12:56:57.044 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.9.0
+2024-03-11 12:56:57.055 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrConfig Using Lucene MatchVersion: 9.9.0
+2024-03-11 12:56:57.093 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-03-11 12:56:57.094 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.s.IndexSchema Schema name=default-config
+2024-03-11 12:56:57.129 WARN  (main) [c: s: r: x: t:] o.g.j.m.i.MessagingBinders A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+2024-03-11 12:56:57.317 INFO  (main) [c: s: r: x: t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 12:56:57.386 INFO  (main) [c: s: r: x: t:] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@655a5d9c{solr-jetty-context.xml,/solr,file:///opt/solr-9.5.0/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-9.5.0/server/solr-webapp/webapp}
+2024-03-11 12:56:57.391 INFO  (main) [c: s: r: x: t:] o.e.j.s.RequestLogWriter Opened /var/solr/logs/2024_03_11.request.log
+2024-03-11 12:56:57.395 INFO  (main) [c: s: r: x: t:] o.e.j.s.AbstractConnector Started ServerConnector@2b95e48b{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-03-11 12:56:57.396 INFO  (main) [c: s: r: x: t:] o.e.j.s.Server Started Server@376a312c{STARTING}[10.0.19,sto=0] @1784ms
+2024-03-11 12:56:57.511 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-03-11 12:56:57.511 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.c.CoreContainer Creating SolrCore 'n11_products' using configuration from instancedir /var/solr/data/n11_products, trusted=true
+2024-03-11 12:56:57.526 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/n11_products], dataDir=[/var/solr/data/n11_products/data/]
+2024-03-11 12:56:57.654 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-03-11 12:56:57.654 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.CoreContainer Creating SolrCore 'geotaste-restaurants' using configuration from instancedir /var/solr/data/geotaste-restaurants, trusted=true
+2024-03-11 12:56:57.655 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrCore Opening new SolrCore at [/var/solr/data/geotaste-restaurants], dataDir=[/var/solr/data/geotaste-restaurants/data/]
+2024-03-11 12:56:57.873 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 12:56:57.874 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2024-03-11 12:56:57.883 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-03-11 12:56:57.883 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-03-11 12:56:57.883 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-03-11 12:56:57.883 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-03-11 12:56:57.891 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-03-11 12:56:57.891 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-03-11 12:56:57.892 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-03-11 12:56:57.892 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.CommitTracker Soft AutoCommit: if uncommitted for 3000ms; 
+2024-03-11 12:56:57.925 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/geotaste-restaurants/conf
+2024-03-11 12:56:57.925 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /var/solr/data/n11_products/conf
+2024-03-11 12:56:57.932 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.s.DirectSolrSpellChecker init: {name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, accuracy=0.5, maxQueryFrequency=0.01}
+2024-03-11 12:56:57.932 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.s.DirectSolrSpellChecker init: {name=default, field=_text_, classname=solr.DirectSolrSpellChecker, distanceMeasure=internal, maxEdits=2, minPrefix=1, maxInspections=5, minQueryLength=4, accuracy=0.5, maxQueryFrequency=0.01}
+2024-03-11 12:56:57.935 INFO  (coreLoadExecutor-11-thread-1) [c: s: r: x:geotaste-restaurants t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-03-11 12:56:57.935 INFO  (coreLoadExecutor-11-thread-2) [c: s: r: x:n11_products t:] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-03-11 12:56:57.936 INFO  (searcherExecutor-15-thread-1-processing-geotaste-restaurants) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-03-11 12:56:57.936 INFO  (searcherExecutor-13-thread-1-processing-n11_products) [c: s: r: x:n11_products t:] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-03-11 12:56:57.936 INFO  (searcherExecutor-15-thread-1-processing-geotaste-restaurants) [c: s: r: x:geotaste-restaurants t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-03-11 12:56:57.936 INFO  (searcherExecutor-13-thread-1-processing-n11_products) [c: s: r: x:n11_products t:] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-03-11 12:56:57.939 INFO  (searcherExecutor-15-thread-1-processing-geotaste-restaurants) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-03-11 12:56:57.939 INFO  (searcherExecutor-13-thread-1-processing-n11_products) [c: s: r: x:n11_products t:] o.a.s.c.SolrCore Registered new searcher autowarm time: 0 ms
+2024-03-11 12:57:46.702 INFO  (qtp693267461-30-null-2) [c: s: r: x: t:null-2] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710161866674} status=0 QTime=3
+2024-03-11 12:57:46.706 INFO  (qtp693267461-35-null-6) [c: s: r: x:geotaste-restaurants t:null-6] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710161866674&ts=1710161866674} status=503 QTime=1
+2024-03-11 12:57:46.707 INFO  (qtp693267461-73-null-5) [c: s: r: x:geotaste-restaurants t:null-5] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710161866683} status=0 QTime=1
+2024-03-11 12:57:46.707 INFO  (qtp693267461-31-null-3) [c: s: r: x: t:null-3] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710161866674} status=0 QTime=4
+2024-03-11 12:57:46.708 INFO  (qtp693267461-33-null-7) [c: s: r: x:geotaste-restaurants t:null-7] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710161866683} status=0 QTime=3
+2024-03-11 12:57:46.709 INFO  (qtp693267461-32-null-4) [c: s: r: x:geotaste-restaurants t:null-4] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710161866683} status=0 QTime=4
+2024-03-11 12:57:48.068 INFO  (qtp693267461-31-null-13) [c: s: r: x:n11_products t:null-13] o.a.s.c.S.Request webapp=/solr path=/admin/ping params={action=status&wt=json&_=1710161866674&ts=1710161866674} status=503 QTime=0
+2024-03-11 12:57:48.068 INFO  (qtp693267461-68-null-12) [c: s: r: x: t:null-12] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1710161866674} status=0 QTime=0
+2024-03-11 12:57:48.069 INFO  (qtp693267461-76-null-9) [c: s: r: x:n11_products t:null-9] o.a.s.c.S.Request webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1710161866683} status=0 QTime=1
+2024-03-11 12:57:48.072 INFO  (qtp693267461-74-null-8) [c: s: r: x:n11_products t:null-8] o.a.s.c.S.Request webapp=/solr path=/replication params={wt=json&command=details&_=1710161866683} status=0 QTime=4
+2024-03-11 12:57:48.072 INFO  (qtp693267461-71-null-10) [c: s: r: x: t:null-10] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1710161866674} status=0 QTime=4
+2024-03-11 12:57:48.072 INFO  (qtp693267461-32-null-11) [c: s: r: x:n11_products t:null-11] o.a.s.c.S.Request webapp=/solr path=/admin/system params={wt=json&_=1710161866683} status=0 QTime=4
+2024-03-11 13:00:25.521 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.e.j.s.Server Stopped Server@376a312c{STOPPING}[10.0.19,sto=0]
+2024-03-11 13:00:25.523 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.e.j.s.AbstractConnector Stopped ServerConnector@2b95e48b{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-03-11 13:00:25.528 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1537371824
+2024-03-11 13:00:25.529 INFO  (coreCloseExecutor-25-thread-1) [c: s: r: x:n11_products t:] o.a.s.c.SolrCore CLOSING SolrCore org.apache.solr.core.SolrCore@7b27c459 n11_products
+2024-03-11 13:00:25.529 INFO  (coreCloseExecutor-25-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.c.SolrCore CLOSING SolrCore org.apache.solr.core.SolrCore@5e7f4f3b geotaste-restaurants
+2024-03-11 13:00:25.530 INFO  (coreCloseExecutor-25-thread-1) [c: s: r: x:n11_products t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.n11_products tag=SolrCore@7b27c459
+2024-03-11 13:00:25.538 INFO  (coreCloseExecutor-25-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.geotaste-restaurants tag=SolrCore@5e7f4f3b
+2024-03-11 13:00:25.539 INFO  (coreCloseExecutor-25-thread-1) [c: s: r: x:n11_products t:] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2024-03-11 13:00:25.545 INFO  (coreCloseExecutor-25-thread-2) [c: s: r: x:geotaste-restaurants t:] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter.close()  ... SKIPPED (unnecessary).
+2024-03-11 13:00:25.550 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2024-03-11 13:00:25.553 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2024-03-11 13:00:25.556 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2024-03-11 13:00:25.560 INFO  (JettyShutdownThread) [c: s: r: x: t:] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@655a5d9c{solr-jetty-context.xml,/solr,null,STOPPED}{/opt/solr-9.5.0/server/solr-webapp/webapp}
