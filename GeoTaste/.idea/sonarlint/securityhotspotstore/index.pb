@@ -133,5 +133,11 @@ v
 FRestaurantService/src/main/java/com/restaurants/general/BaseModel.java,6\7\672272e34fb85ba7e0e3b8303742d7acb4f6e7a3
 y
 IRestaurantService/src/main/java/com/restaurants/general/RestResponse.java,b\c\bc3b70bd1216e7b97b535f428a674aafd3a3ad7a
-k
-;RestaurantService/src/main/resources/application.properties,d\b\dbc04ea9f2038851af5b3bd4b9385dcaf74d5c11
+€
+PRestaurantService/src/main/java/com/restaurants/dto/BaseAdditionalFieldsDTO.java,7\0\7079d155478eb9dc9a1398f623f17f25daf34f91
+„
+TUserAndUserServiewService/src/main/java/com/ulas/client/RestaurantServiceClient.java,2\d\2d2ad082dc769bdd7e436e2bcf5987c1fccb0464
+w
+GUserAndUserServiewService/src/main/java/com/ulas/dto/RestaurantDTO.java,f\a\fa152a8e1fcc0e53de1bb6f1ebb768d168a3d99b
+|
+LUserAndUserServiewService/src/main/java/com/ulas/dto/RestaurantResponse.java,9\5\9524c8c8678df5e473b38da92837f91dd811d82b

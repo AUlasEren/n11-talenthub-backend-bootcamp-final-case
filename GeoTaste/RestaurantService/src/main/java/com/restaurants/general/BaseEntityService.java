@@ -20,22 +20,7 @@ public abstract class BaseEntityService<E extends BaseEntity, R extends SolrCrud
 
   public E save(E entity) {
 
-    BaseAdditionalFields baseAdditionalFields = entity.getBaseAdditionalFields();
-    if (baseAdditionalFields == null) {
-      baseAdditionalFields = new BaseAdditionalFields();
-    }
 
-    Date now = new Date();
-
-
-    if (entity.getId() != null && entity.getId().isEmpty()) {
-      baseAdditionalFields.setCreateDate(now);
-    }
-
-
-    baseAdditionalFields.setUpdateDate(now);
-
-    entity.setBaseAdditionalFields(baseAdditionalFields);
 
     entity = repository.save(entity);
     return entity;

@@ -15,7 +15,9 @@ public class BaseAdditionalFields {
 
     @Indexed(name = "update_date", type = "update")
     private Date updateDate;
+    @Indexed(name = "creator_id", type = "update")
     private String creatorId;
+    @Indexed(name = "updater_id", type = "update")
     private String updaterId;
 
 }

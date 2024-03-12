@@ -20,6 +20,8 @@ public interface RestaurantMapper {
     @Mapping(target = "name", source = "name")
     @Mapping(target = "latitude", source = "latitude")
     @Mapping(target = "longitude", source = "longitude")
+    @Mapping(target = "averageRating", source = "averageRating")
+    @Mapping(target = "reviewCount", source = "reviewCount")
     @Mapping(target = "id", ignore = true)
     Restaurant updateRestaurantFields(RestaurantUpdateRequest request, @MappingTarget Restaurant restaurant);
 

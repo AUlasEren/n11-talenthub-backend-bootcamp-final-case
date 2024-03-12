@@ -1,8 +1,11 @@
 package com.ulas.controller;
 
+import com.ulas.client.RestaurantServiceClient;
 import com.ulas.controller.contract.UserControllerContract;
+import com.ulas.dto.RestaurantDTO;
+import com.ulas.dto.RestaurantResponse;
 import com.ulas.dto.UserDTO;
-import com.ulas.general.KafkaProducerService;
+
 import com.ulas.general.RestResponse;
 import com.ulas.request.UserSaveRequest;
 import com.ulas.request.UserUpdateRequest;
@@ -12,13 +15,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping("api/v1/users")
 @RequiredArgsConstructor
 public class UserController {
     private final UserControllerContract userControllerContract;
-    private final KafkaProducerService kafkaProducerService;
+    private final RestaurantServiceClient restaurantServiceClient;
+
     @PostMapping
     public ResponseEntity<RestResponse<UserDTO>> saveUser(@Valid @RequestBody  UserSaveRequest request){
         UserDTO userDTO = userControllerContract.saveUser(request);
@@ -33,5 +38,10 @@ public class UserController {
     public ResponseEntity<RestResponse<UserDTO>> updateUser(@RequestBody UserUpdateRequest request ){
        UserDTO userDTO = userControllerContract.updateUser(request);
        return  ResponseEntity.ok(RestResponse.of(userDTO).message("User update successfully"));
+    }
+    @GetMapping("/{userId}/restaurant-recommendations")
+    public ResponseEntity<RestResponse<List<RestaurantDTO>>> getRestaurantRecommendations(@PathVariable Long userId) {
+        List<RestaurantDTO> recommendations = userControllerContract.getRestaurantRecommendations(userId);
+        return ResponseEntity.ok(RestResponse.of(recommendations).message("Restaurant recommendations retrieved successfully."));
     }
 }

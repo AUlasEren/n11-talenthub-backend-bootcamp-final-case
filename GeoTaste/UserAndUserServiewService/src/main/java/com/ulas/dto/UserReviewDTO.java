@@ -10,8 +10,8 @@ import java.time.LocalDateTime;
 
 public record UserReviewDTO( @NotNull Long id,
                              @NotNull Long userId,
-                             @NotNull Long restaurantId,
-                             @NotBlank @Length(min = 1, max = 100) String reviewText,
+                              String restaurantId,
+                             @NotBlank @Length(min = 1, max = 400) String reviewText,
                              LocalDateTime reviewDate,
                              EnumRating enumRating) {
 }

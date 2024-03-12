@@ -13,4 +13,5 @@ public class RestaurantService extends BaseEntityService<Restaurant, RestaurantR
         super(repository);
     }
 
+
 }

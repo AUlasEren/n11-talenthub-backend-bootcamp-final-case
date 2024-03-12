@@ -25,8 +25,8 @@ public class UserReview extends BaseEntity {
     @Column(name = "USER_ID",nullable = false)
     private Long userId;
     @Column(name = "RESTAURANT_ID",nullable = false)
-    private Long restaurantId;
-    @Column(name = "REVIEW_TEXT", length = 100,nullable = false)
+    private String restaurantId;
+    @Column(name = "REVIEW_TEXT", length = 400,nullable = false)
     private String reviewText;
     @Column(name = "REVIEW_DATE")
     private LocalDateTime reviewDate;

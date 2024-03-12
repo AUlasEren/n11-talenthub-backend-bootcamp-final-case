@@ -1,5 +1,6 @@
 package com.restaurants.entity;
 
+
 import com.restaurants.general.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -24,6 +25,11 @@ public class Restaurant extends BaseEntity {
     private double latitude;
     @Indexed(name = "longitude",type = "double")
     private double longitude;
+    @Indexed(name = "averageRating", type = "double")
+    private double averageRating;
+    @Indexed(name = "reviewCount", type = "int")
+    private int reviewCount;
+
 
 
 
