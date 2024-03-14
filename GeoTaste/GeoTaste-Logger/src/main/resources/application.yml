@@ -1,20 +1,21 @@
 server:
-  port: 8081
-
+  port: 8082
 spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASS}
+    url: ${POSTGRES_LOGGER_URL}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
   kafka:
     consumer:
-      bootstrap-servers: localhost:9092
+      bootstrap-servers: ${KAFKA_BROKER_URL}:9092
       group-id: log-consumer-group
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-  datasource:
-    url: jdbc:postgresql://localhost:5432/geotaste-log
-    username: postgres
-    password: root
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
+

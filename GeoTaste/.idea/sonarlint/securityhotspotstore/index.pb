@@ -13,8 +13,6 @@ C
 gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
 N
 RestaurantService/build.gradle,e\8\e8fb0c3f75cd98679583f9fd358e0bdeb49bf655
-T
-$RestaurantService/docker-compose.yml,8\e\8eddd598d94f8427b41542680a32de3ef6cfca5f
 L
 GeoTaste-Logger/build.gradle,d\a\da59f00505fccc0a47ba4cfcc646352c07af6a07
 h
@@ -25,8 +23,6 @@ t
 DGeoTaste-Logger/src/main/java/com/ulas/log/KafkaConsumerService.java,5\c\5cbd058efdae33808b27f8fd5c27a44214c2b2da
 w
 GGeoTaste-Logger/src/main/java/com/ulas/log/dlq/KafkaConsumerConfig.java,b\e\be86eb4196b7c44e9fef6f81fedd3ce3a72301fa
-R
-"GeoTaste-Logger/docker-compose.yml,1\3\139b96a8634b88445560f690094e46262ef27411
 v
 FRestaurantService/src/main/java/com/restaurants/config/SolrConfig.java,7\1\71ab84759173a27db7893c330420078e626f96da
 Å
@@ -78,16 +74,10 @@ P
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-ó
-gUserAndUserReviewService/src/test/java/com/ulas/userAndUserReviewService/controller/UserController.java,f\e\fe5767b7300119392305299f54439bbae1a04df8
 à
 XUserAndUserReviewService/src/main/java/com/ulas/UserAndUserReviewServiceApplication.java,d\5\d5bc1a348fc0235f8a044b2312b0305fd34ce177
-•
-uUserAndUserReviewService/src/test/java/com/ulas/userAndUserReviewService/UserAndUserReviewServiceApplicationTest.java,9\1\91bd884412efcc8ad66653244b9332f6c63f4345
 U
 %UserAndUserReviewService/build.gradle,2\2\22e53a29d4622354c0055e1b9072ce5d497b90df
-º
-ãUserAndUserReviewService/src/test/java/com/ulas/userAndUserReviewService/controller/contract/impl/UserReviewControllerContractImplTest.java,a\8\a8a834721e50f145c241c0834447566c38ed7897
 ~
 NUserAndUserReviewService/src/main/java/com/ulas/controller/UserController.java,0\2\029b6db8f9141b4998324ab911d10ae87e180400
 è
@@ -96,3 +86,27 @@ _UserAndUserReviewService/src/main/java/com/ulas/controller/contract/UserControl
 nUserAndUserReviewService/src/main/java/com/ulas/controller/contract/impl/UserReviewControllerContractImpl.java,e\8\e8db7a60e63ceab89890486e50519d83c0bf63b6
 ò
 hUserAndUserReviewService/src/main/java/com/ulas/controller/contract/impl/UserControllerContractImpl.java,3\1\31f30c3596342d4472fc16e1d69d99b6759fe491
+B
+docker-compose.yml,3\5\35b8c13cf2eb2a194eada000eb310d65aed53b2a
+~
+NUserAndUserReviewService/src/main/java/com/ulas/service/UserReviewService.java,9\9\99a8516041544a452040f4a6226b52535767519f
+Å
+QUserAndUserReviewService/src/main/java/com/ulas/general/KafkaProducerService.java,a\b\abbe98c036b51edf9edd375226be40679d89b8cf
+Ö
+UUserAndUserReviewService/src/main/java/com/ulas/exception/GlobalExceptionHandler.java,6\0\600e9e96c3c3a13e546fb8a10ce806fb6bcdb569
+É
+SUserAndUserReviewService/src/main/java/com/ulas/client/RestaurantServiceClient.java,f\d\fdb30e376a76029b0b353c9843ef1ef997230ebb
+Ñ
+TUserAndUserReviewService/src/main/java/com/ulas/controller/UserReviewController.java,d\b\dbe1eeb660e03350f79a12c2758f9137811ad98c
+¢
+rUserAndUserReviewService/src/test/java/com/ulas/controller/contract/impl/UserReviewControllerContractImplTest.java,e\c\ecf1f53531aa5e7bc35bd25106af69bdf726d91c
+~
+NUserAndUserReviewService/src/test/java/com/ulas/controller/UserController.java,2\e\2e7cdfbadbda9e0598668a6cb9055796505a3d54
+É
+SUserAndUserReviewService/src/test/java/UserAndUserReviewServiceApplicationTest.java,2\8\28a53afe6c4bf281f624d277302aad9d9c3c0b8f
+x
+HUserAndUserReviewService/src/main/java/com/ulas/service/UserService.java,6\0\6005ee5b923fb59fe81e74ae63d99bb4e6482a31
+ï
+eUserAndUserReviewService/src/main/java/com/ulas/controller/contract/UserReviewControllerContract.java,0\0\00c11279123ef69efda4d0be0e2f604dd20275c2
+y
+IUserAndUserReviewService/src/main/java/com/ulas/exception/EErrorType.java,5\5\5589cd28439f2897f4a5d1a001c999020fb1fbe2

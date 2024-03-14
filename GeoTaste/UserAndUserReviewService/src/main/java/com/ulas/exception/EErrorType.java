@@ -17,6 +17,7 @@ public enum EErrorType {
     METHOD_NOT_VALID_ARGUMENT_ERROR(1002,"Missing parameter submission in URL",BAD_REQUEST),
     HTTP_MESSAGE_NOT_READABLE(1003,"HTTP message not readable" ,BAD_REQUEST ),
     USER_NOT_FOUND(2001,"User not found", BAD_REQUEST),
+    RESTAURANT_NOT_FOUND(4001,"Restaurant Matching Your Criteria Not Found", BAD_REQUEST),
     USER_REVIEW_NOT_FOUND(3001,"User Review not found", BAD_REQUEST),
     USER_ALREADY_EXIST(2002,"User is already exist", BAD_REQUEST),
     NOT_DECODED(1005,"Token can not decoded", INTERNAL_SERVER_ERROR),

@@ -61,12 +61,18 @@ public class UserControllerContractImpl implements UserControllerContract {
         RestaurantResponse response = restaurantServiceClient.getAllCategories();
         List<RestaurantDTO> allRestaurants = response.getData();
 
-        return allRestaurants.stream()
+        List<RestaurantDTO> recommendedRestaurants = allRestaurants.stream()
                 .filter(restaurant -> calculateDistance(user.getLatitude(), user.getLongitude(),
-                        restaurant.latitude(), restaurant.longitude()) <= 100)
+                        restaurant.latitude(), restaurant.longitude()) <= 40)
                 .sorted((r1, r2) -> compareRestaurants(r1, r2, user.getLatitude(), user.getLongitude()))
                 .limit(3)
                 .collect(Collectors.toList());
+
+        if (recommendedRestaurants.isEmpty()) {
+            throw new UserManagerException(EErrorType.RESTAURANT_NOT_FOUND);
+        }
+
+        return recommendedRestaurants;
     }
 
     @Override
