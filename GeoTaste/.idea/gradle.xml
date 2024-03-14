@@ -11,7 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/GeoTaste-Logger" />
             <option value="$PROJECT_DIR$/RestaurantService" />
-            <option value="$PROJECT_DIR$/UserAndUserServiewService" />
+            <option value="$PROJECT_DIR$/UserAndUserReviewService" />
           </set>
         </option>
       </GradleProjectSettings>

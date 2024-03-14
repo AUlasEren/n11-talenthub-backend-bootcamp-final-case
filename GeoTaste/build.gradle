@@ -41,9 +41,11 @@ allprojects{
         implementation libs.springBootValidation
         implementation libs.springOpenFeign
 
+
     }
 
 }
+
 
 configurations{
     compileOnly{

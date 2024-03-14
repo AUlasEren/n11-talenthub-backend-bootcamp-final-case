@@ -1,5 +1,5 @@
 rootProject.name = 'GeoTaste'
-include 'UserAndUserServiewService'
+include 'UserAndUserReviewService'
 include 'RestaurantService'
 include 'GeoTaste-Logger'
 

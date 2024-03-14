@@ -1,11 +1,9 @@
 package com.ulas.log;
-
+import java.time.LocalDateTime;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
-
-import java.time.LocalDateTime;
 
 
 @Service
@@ -15,28 +13,42 @@ public class KafkaConsumerService {
 
   private final ErrorLogRepository errorLogRepository;
 
-  public void processMessage(String message, String type) {
-    log.info("Processing message: {}", message);
+  @KafkaListener(topics = "errorLog", groupId = "log-consumer-group")
+  public void consume(String message){
+
+    log.info("consume started!");
+
+
 
     ErrorLog errorLog = new ErrorLog();
     errorLog.setDate(LocalDateTime.now());
     errorLog.setMessage(message);
-    errorLog.setDescription(type);
+    errorLog.setDescription("Error");
 
     errorLogRepository.save(errorLog);
 
-    log.info("Message processed and saved: {}", message);
+    log.info("consume finished!");
+
   }
 
-  @KafkaListener(topics = "errorLog", groupId = "log-consumer-group")
-  public void consumeError(String message) {
-    processMessage(message, "Error");
+  @KafkaListener(topics = "errorLog.DLT", groupId = "log-consumer-group-dlt")
+  public void consumeDLT(String message){
+    log.error("Received message from DLT Queue " + message);
   }
 
   @KafkaListener(topics = "infoLog", groupId = "log-consumer-group")
-  public void consumeInfo(String message) {
-    processMessage(message, "Info");
+  public void consumeInfos(String message){
+
+    log.info("consume started!");
+
+    ErrorLog errorLog = new ErrorLog();
+    errorLog.setDate(LocalDateTime.now());
+    errorLog.setMessage(message);
+    errorLog.setDescription("Info");
+
+    errorLogRepository.save(errorLog);
+
+    log.info("consume finished!");
+
   }
 }
-
-

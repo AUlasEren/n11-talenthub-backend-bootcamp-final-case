@@ -1,5 +1,5 @@
 
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ
-
-java:S3305"dInject this field value directly into "kafkaListenerContainerFactory", the only method that uses it.(Ÿ‚™øÿÿÿÿ
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8şª–Èã1
+†
+java:S3305"dInject this field value directly into "kafkaListenerContainerFactory", the only method that uses it.(Ÿ‚™øÿÿÿÿ8ÿª–Èã1
