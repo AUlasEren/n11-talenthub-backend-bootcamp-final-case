@@ -43,6 +43,9 @@ allprojects{
 
 
     }
+    tasks.named('test') {
+        useJUnitPlatform()
+    }
 
 }
 
@@ -51,4 +54,5 @@ configurations{
     compileOnly{
         extendsFrom annotationProcessor
     }
+
 }

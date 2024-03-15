@@ -27,11 +27,11 @@ import java.util.stream.Collectors;
 @Slf4j
 public class UserReviewControllerContractImpl implements UserReviewControllerContract {
     private final UserReviewService userReviewService;
+
     @Override
     public UserReviewDTO saveUserReview(UserReviewRequest request) {
         UserReview userReview = UserReviewMapper.INSTANCE.convertToUserReview(request);
         userReview = userReviewService.save(userReview);
-        log.info("User review saved successfully: {}", userReview);
         return UserReviewMapper.INSTANCE.convertToUserReviewDTO(userReview);
     }
 

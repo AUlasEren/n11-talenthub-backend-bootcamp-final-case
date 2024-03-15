@@ -9,5 +9,6 @@ dependencies {
     implementation libs.springBootWeb
     testImplementation libs.springKafkaTest
     implementation libs.springKafka
+    implementation libs.springBootStarterTest
     testImplementation libs.springBootStarterTest
 }
