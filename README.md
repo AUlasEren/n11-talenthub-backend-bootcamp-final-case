@@ -17,7 +17,7 @@ This microservice is a Spring Boot application that allows users to make reviews
 ### Installation Steps
 1. Start the necessary Docker containers:
     ```bash
-    docker-compose up -d
+    docker-compose up -d --build
     ```
 
 ## Usage
