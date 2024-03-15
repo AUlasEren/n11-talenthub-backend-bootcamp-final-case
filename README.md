@@ -38,7 +38,7 @@ This microservice is a Spring Boot application that allows users to make reviews
 - List Restaurants: `GET /api/v1/restaurants`(Port 8096)
 
 ### Restaurant Recommendations
-- Get Recommendations: `GET /api/v1/users/{userId}/restaurant-recommendations`(Port 8096)
+- Get Recommendations: `GET /api/v1/users/{userId}/restaurant-recommendations`(Port 8095)
 
 ## Tests
 Unit and integration tests are included in the project, ensuring all tests are in working order.
