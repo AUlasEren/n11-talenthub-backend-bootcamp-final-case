@@ -151,8 +151,7 @@ public class UserControllerContractImplTest {
         verify(userService).save(any(User.class));
 
     }
-    /**
-    @Test
+   /** @Test
     void getRestaurantRecommendationsShouldReturnList() {
 
         Long userId = 1L;

@@ -27,7 +27,7 @@ public class RestaurantController {
     @DeleteMapping("/{id}")
     public ResponseEntity<RestResponse<RestaurantDTO>> deleteRestaurant(@PathVariable String id) {
         RestaurantDTO userDTO = restaurantControllerContract.delete(id);
-        return ResponseEntity.ok(RestResponse.of(userDTO).message("Restaurant deleted successfully."));
+        return ResponseEntity.ok(RestResponse.of(userDTO).message("User deleted successfully."));
     }
     @PutMapping("/update_restaurant")
     public ResponseEntity<RestResponse<RestaurantDTO>> updateUser(@RequestBody RestaurantUpdateRequest request ){
