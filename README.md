@@ -42,6 +42,8 @@ This microservice is a Spring Boot application that allows users to make reviews
 
 ## Tests
 Unit and integration tests are included in the project, ensuring all tests are in working order.
+### Note
+If you want the User Controller and User Review Controller test classes to run, you can uncomment the User Review and User Controller test classes after running docker compose up -d --build. The test classes initially encounter an issue because they can’t find a PostgreSQL instance to connect to when the application first starts up in the Docker container. However, this issue disappears after a while.
 
 ## Documentation
 API documentation created with Swagger or OpenAPI explains all endpoints and their use.
