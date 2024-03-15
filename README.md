@@ -5,7 +5,7 @@ This microservice is a Spring Boot application that allows users to make reviews
 ## Features
 - **User Management**: Users can be added, updated, and deleted with their name, surname, latitude, and longitude information.
 - **Review Management**: Users can post, update, and delete reviews for restaurants with a score between 1 and 5.
-- **Restaurant Recommendations**: Users receive 3 restaurant recommendations within 10 km based on their location and the restaurant ratings.
+- **Restaurant Recommendations**: Users receive 3 restaurant recommendations within 40 km based on their location and the restaurant ratings.
 - **Restaurant Management**: Restaurants can be added, updated, deleted, and listed with latitude and longitude information. Restaurant information is stored and queried in Apache Solr.
 
 ## Setup
