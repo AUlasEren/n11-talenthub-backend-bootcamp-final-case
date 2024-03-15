@@ -16,7 +16,7 @@ public enum EErrorType {
     METHOD_MIS_MATCH_ERROR(1001,"The value you entered does not match the desired value.", BAD_REQUEST),
     METHOD_NOT_VALID_ARGUMENT_ERROR(1002,"Missing parameter submission in URL",BAD_REQUEST),
     HTTP_MESSAGE_NOT_READABLE(1003,"HTTP message not readable" ,BAD_REQUEST ),
-    RESTAURANT_NOT_FOUND(2001,"User not found", BAD_REQUEST),
+    RESTAURANT_NOT_FOUND(2001,"Restaurant not found", BAD_REQUEST),
     NOT_DECODED(1005,"Token can not decoded", INTERNAL_SERVER_ERROR),
     UNEXPECTED_ERROR(1008,"Unexpected Error Occured", INTERNAL_SERVER_ERROR);
 
