@@ -5,8 +5,6 @@
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 C
 dependencies.gradle,9\2\9282de42fdd92f96bfdaa8eed76823d133cf1624
-<
-GeoTaste.iml,d\f\dfe477ef168691dc2f323335a2cb6d5c4f93b71b
 7
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 ;

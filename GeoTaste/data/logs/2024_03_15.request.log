@@ -1,6 +1,0 @@
-172.26.0.7 - - [15/Mar/2024:11:32:33 +0000] "GET /solr/geotaste_restaurant/select?q=*%3A*&start=0&rows=0&wt=javabin&version=2 HTTP/1.1" 200 115
-172.26.0.7 - - [15/Mar/2024:11:32:33 +0000] "GET /solr/geotaste_restaurant/select?q=*%3A*&start=0&rows=17&wt=javabin&version=2 HTTP/1.1" 200 2024
-172.26.0.7 - - [15/Mar/2024:11:32:36 +0000] "GET /solr/geotaste_restaurant/select?q=*%3A*&start=0&rows=0&wt=javabin&version=2 HTTP/1.1" 200 118
-172.26.0.7 - - [15/Mar/2024:11:32:36 +0000] "GET /solr/geotaste_restaurant/select?q=*%3A*&start=0&rows=17&wt=javabin&version=2 HTTP/1.1" 200 2028
-172.26.0.7 - - [15/Mar/2024:11:32:39 +0000] "GET /solr/geotaste_restaurant/select?q=*%3A*&start=0&rows=0&wt=javabin&version=2 HTTP/1.1" 200 118
-172.26.0.7 - - [15/Mar/2024:11:32:39 +0000] "GET /solr/geotaste_restaurant/select?q=*%3A*&start=0&rows=17&wt=javabin&version=2 HTTP/1.1" 200 2028
